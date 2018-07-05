@@ -1,4 +1,5 @@
 import component from "./component";
-import "./main.scss";
+import "./main.css";
+import "purecss";
 
 document.body.appendChild(component());

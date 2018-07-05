@@ -1,20 +1,36 @@
 const htmlWebpackPlugin = require("html-webpack-plugin");
 const merge = require("webpack-merge");
-
+const path = require("path");
+const glob = require("glob");
 const parts = require("./webpack.parts");
 
 const commonConfig = merge([
     {
+
+     
         plugins:[
             new htmlWebpackPlugin({
                 title:"Webpack demo",
             })
         ]
     },
-    parts.loadCSS(),
+    
 ]);
 
-const productionConfig = merge([]);
+const PATHS = {
+    app: path.join(__dirname, "src"),
+};
+
+const productionConfig = merge([
+
+    parts.extractCSS({
+        use: ["css-load0er",parts.autoprefix()],
+    }),
+
+    parts.purifyCSS({
+        paths: glob.sync(`${PATHS.app}/**/*.js`,{nodir:true}),
+    }),
+]);
 
 const developmentConfig = merge([
     parts.devServer({
@@ -22,6 +38,7 @@ const developmentConfig = merge([
         host: process.env.HOST,
         port: process.env.PORT,
     }),
+    parts.loadCSS(),
 ]);
 
 module.exports = mode => {
