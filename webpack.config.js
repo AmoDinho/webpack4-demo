@@ -58,6 +58,18 @@ const productionConfig = merge([
     },
     parts.generateSourceMaps({type: "source-map"}),
     parts.clean(PATHS.build),
+    parts.minifyJavascript(),
+    
+    parts.minifyCSS({
+        options: {
+            discardComments:{
+                removeAll:true,
+            },
+            //runn cssnano in safe mode to aviod unsafe transformaion
+            safe:true,
+            parser: require("postcss-safe-parser"),
+        },
+    }),
     parts.attachRevision(),
 ]);
 

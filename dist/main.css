@@ -1,11 +1,3 @@
-.pure-button {
-  border-radius: 1em;
-}
-
-body {
-  background: cornsilk;
-  background-image: url(GeneralizationC.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-}
+/*! 6ec8287 */
+.pure-button{border-radius:1em}body{background:#fff8dc;background-image:url(GeneralizationC.png);background-position:cover;background-repeat:no-repeat}
 /*# sourceMappingURL=main.css.map*/
