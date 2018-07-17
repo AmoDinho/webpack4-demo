@@ -3,6 +3,7 @@ const merge = require("webpack-merge");
 const path = require("path");
 const glob = require("glob");
 const parts = require("./webpack.parts");
+const HappyPack = require("happypack");
 
 
 const PATHS = {
@@ -17,8 +18,13 @@ const commonConfig = merge([
         plugins:[
             new htmlWebpackPlugin({
                 title:"Webpack demo",
-            })
-        ]
+            }),
+            new HappyPack({
+                loaders:[
+                    "babel-loader"
+                ],
+            }),
+        ],
     },
 
     parts.loadJavaScript({include: PATHS.app}),
