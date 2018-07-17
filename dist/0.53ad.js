@@ -1,3 +1,3 @@
-/*! 0fdf6e5 */
+/*! 60f5f8a */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[0],{19:function(o,n,w){"use strict";w.r(n),n.default="Hello from Lazy"}}]);
-//# sourceMappingURL=0.js.map
+//# sourceMappingURL=0.53ad.js.map
