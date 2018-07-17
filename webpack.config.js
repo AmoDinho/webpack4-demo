@@ -61,6 +61,9 @@ const productionConfig = merge([
                 }
                 
             },
+            runtimeChunk:{
+                name: "manifest",
+            },
         },
     },
     parts.generateSourceMaps({type: "source-map"}),
@@ -78,6 +81,9 @@ const productionConfig = merge([
         },
     }),
     parts.attachRevision(),
+    {
+        recordsPath: path.join(__dirname,"records.json"),
+    },
 ]);
 
 const developmentConfig = merge([
