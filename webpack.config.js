@@ -84,6 +84,13 @@ const productionConfig = merge([
     {
         recordsPath: path.join(__dirname,"records.json"),
     },
+    {
+     performance:{
+         hints: "warning",
+         maxEntrypointSize: 50000,
+         maxAssetSize: 450000,
+     },
+    },
 ]);
 
 const developmentConfig = merge([
