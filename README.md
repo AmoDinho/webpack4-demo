@@ -7,3 +7,7 @@ Exploring all of Webpack 4's features
 - [ ] Composing Configuration
 - [ ] Styling
 - [ ] Loading Assets
+
+
+### To-D0
+- [ ] Minify files that exceed file limit size
