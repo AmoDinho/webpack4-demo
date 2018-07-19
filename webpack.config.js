@@ -1,9 +1,8 @@
-const htmlWebpackPlugin = require("html-webpack-plugin");
 const merge = require("webpack-merge");
 const path = require("path");
 const glob = require("glob");
 const parts = require("./webpack.parts");
-const HappyPack = require("happypack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 
 const PATHS = {
@@ -13,25 +12,15 @@ const PATHS = {
 
 const commonConfig = merge([
     {
-
-     
-        plugins:[
-            new htmlWebpackPlugin({
-                title:"Webpack demo",
-            }),
-            new HappyPack({
-                loaders:[
-                    "babel-loader"
-                ],
-            }),
-        ],
+        output:{
+            publicPath: "/",
+        },
     },
 
     parts.loadJavaScript({include: PATHS.app}),
     parts.setFreeVariavble("HELLO","Wad up from config!")
     
 ]);
-
 
 const productionConfig = merge([
 
@@ -110,10 +99,28 @@ const developmentConfig = merge([
 ]);
 
 module.exports = mode => {
-    if (mode === "production"){
-        return merge(commonConfig,productionConfig, {mode});
-    }
-    return merge(commonConfig, developmentConfig,{mode});
+    const pages = [
+        parts.page({
+            title:"Webpack Demo",
+        entry:{
+            app:PATHS.app,
+        },
+    }),
+        parts.page({
+            title: "Another Demo", 
+            path: "another",
+            entry:{
+                another: path.join(PATHS.app, "another.js"),
+            },
+        }),
+      ];
+    
+      const config = mode === "production" ? productionConfig : developmentConfig;
+      
+      return 
+        merge([commonConfig, config,{mode}].concat(pages));
+  
 };
+
 
 

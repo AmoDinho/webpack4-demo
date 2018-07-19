@@ -6,6 +6,7 @@ const GitRevisionPlugin = require("git-revision-webpack-plugin");
 const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const cssnano = require("cssnano");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 exports.devServer  =({host,port} = {}) => ({
     devServer:{
@@ -96,8 +97,8 @@ exports.loadJavaScript = ({include,exclude} ={}) =>({
                 test:/\.js$/,
                 include,
                 exclude,
-                //"babel-loader"
-                use:"happypack/loader",
+                //""
+                use:"babel-loader",
             },
         ],
     }
@@ -146,5 +147,28 @@ exports.setFreeVariavble = (key, value) =>{
         plugins: [new webpack.DefinePlugin(env)],
     };
 };
+
+
+exports.page =({
+    path = "",
+    template = require.resolve(
+        "html-webpack-plugin/default_index.ejs"
+    ),
+    title,
+    entry,
+    chunks,
+
+} = {}
+
+) => ({
+    entry,
+    plugins:[
+        new HtmlWebpackPlugin({
+            chunks,
+            filename: `${path && path + "/"}index.html`,
+            title,
+        }),
+    ],
+});
 
 
