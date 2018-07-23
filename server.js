@@ -1,5 +1,6 @@
 const express = require("express");
 const {renderToString} = require("react-dom/server");
+
 const SSR = require("./static");
 
 server(process.env.PORT || 8080);
