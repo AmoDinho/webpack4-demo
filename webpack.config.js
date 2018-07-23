@@ -104,7 +104,7 @@ module.exports = mode => {
             title:"Webpack Demo",
         entry:{
             app:PATHS.app,
-        },
+        }, 
     }),
         parts.page({
             title: "Another Demo", 

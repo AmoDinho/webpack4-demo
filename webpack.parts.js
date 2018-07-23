@@ -7,6 +7,7 @@ const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const cssnano = require("cssnano");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const safe = require("postcss-safe-parser");
 
 exports.devServer  =({host,port} = {}) => ({
     devServer:{
@@ -42,6 +43,7 @@ exports.autoprefix = () =>({
     loader: "postcss-loader",
     options: {
         plugins: () =>[require("autoprefixer")()],
+        
     },
 });
 
@@ -122,7 +124,7 @@ exports.attachRevision = () =>({
     ],
 });
 
-exports.minifyJavascript = () =>({
+exports.minifyJavaScript = () =>({
     optimization:{
         minimizer:[new UglifyWebpackPlugin({sourceMap: true})],
     },
@@ -132,6 +134,7 @@ exports.minifyCSS = ({options}) => ({
     plugins : [
         new OptimizeCSSAssetsPlugin({
             cssProcessor: cssnano,
+            parser: safe,
             cssProcessorOptions: options,
             canPrint: false,
         }),
@@ -139,7 +142,7 @@ exports.minifyCSS = ({options}) => ({
 });
 
 
-exports.setFreeVariavble = (key, value) =>{
+exports.setFreeVariable = (key, value) =>{
     const env = {};
     env[key] = JSON.stringify(value);
 
@@ -166,6 +169,7 @@ exports.page =({
         new HtmlWebpackPlugin({
             chunks,
             filename: `${path && path + "/"}index.html`,
+            template,
             title,
         }),
     ],
