@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --env development\"",
     "build": "webpack --env production --json > stats.json",
-    "build:ssr": "webpack --config webpack.ssr.js"
+    "build:ssr": "webpack --config webpack.ssr.js",
+    "ssr" : "node_modules/.bin/browser-refresh ./server.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "browser-refresh": "^1.7.3",
     "clean-webpack-plugin": "^0.1.19",
     "cssnano": "^4.0.2",
     "express": "^4.16.3",
@@ -43,6 +45,7 @@
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
     "sass-loader": "^7.0.3",
+    "static": "^2.0.0",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "url-loader": "^1.0.1",
     "webpack": "^4.14.0",

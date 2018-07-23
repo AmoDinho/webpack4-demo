@@ -6,6 +6,32 @@ const GitRevisionPlugin = require("git-revision-webpack-plugin");
 const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const cssnano = require("cssnano");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+
+exports.page =({
+    path = "",
+    template = require.resolve(
+        "html-webpack-plugin/default_index.ejs"
+    ),
+    title,
+    entry,
+    chunks,
+
+} = {}
+
+) => ({
+    entry,
+    plugins:[
+        new HtmlWebpackPlugin({
+            chunks,
+            filename: `${path && path + "/"}index.html`,
+            template,
+            title,
+        }),
+    ],
+});
+
 
 exports.devServer  =({host,port} = {}) => ({
     devServer:{
@@ -41,6 +67,7 @@ exports.autoprefix = () =>({
     loader: "postcss-loader",
     options: {
         plugins: () =>[require("autoprefixer")()],
+        
     },
 });
 
@@ -96,8 +123,8 @@ exports.loadJavaScript = ({include,exclude} ={}) =>({
                 test:/\.js$/,
                 include,
                 exclude,
-                //"babel-loader"
-                use:"happypack/loader",
+                //""
+                use:"babel-loader",
             },
         ],
     }
@@ -121,7 +148,7 @@ exports.attachRevision = () =>({
     ],
 });
 
-exports.minifyJavascript = () =>({
+exports.minifyJavaScript = () =>({
     optimization:{
         minimizer:[new UglifyWebpackPlugin({sourceMap: true})],
     },
@@ -131,6 +158,7 @@ exports.minifyCSS = ({options}) => ({
     plugins : [
         new OptimizeCSSAssetsPlugin({
             cssProcessor: cssnano,
+            parser: safe,
             cssProcessorOptions: options,
             canPrint: false,
         }),
@@ -138,7 +166,7 @@ exports.minifyCSS = ({options}) => ({
 });
 
 
-exports.setFreeVariavble = (key, value) =>{
+exports.setFreeVariable = (key, value) =>{
     const env = {};
     env[key] = JSON.stringify(value);
 
@@ -146,5 +174,6 @@ exports.setFreeVariavble = (key, value) =>{
         plugins: [new webpack.DefinePlugin(env)],
     };
 };
+
 
 
