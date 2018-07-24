@@ -15,5 +15,6 @@ module.exports = config =>{
         },
         webpack: parts.loadJavaScript(),
         singleRun: true, 
+        browsers: ["PhantomJS"]
     });
 };
