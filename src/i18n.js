@@ -1,0 +1,1 @@
+console.log(_("Hello Plant Earth"));

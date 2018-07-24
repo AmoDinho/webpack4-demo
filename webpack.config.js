@@ -28,7 +28,7 @@ const commonConfig = merge([
     },
 
     parts.loadJavaScript({include: PATHS.app}),
-    parts.setFreeVariavble("HELLO","Wad up from config!")
+    parts.setFreeVariable("HELLO","Wad up from config!")
     
 ]);
 
@@ -74,7 +74,7 @@ const productionConfig = merge([
     },
     parts.generateSourceMaps({type: "source-map"}),
     parts.clean(PATHS.build),
-    parts.minifyJavascript(),
+    parts.minifyJavaScript(),
     
     parts.minifyCSS({
         options: {

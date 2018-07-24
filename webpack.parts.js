@@ -158,7 +158,7 @@ exports.minifyCSS = ({options}) => ({
     plugins : [
         new OptimizeCSSAssetsPlugin({
             cssProcessor: cssnano,
-            parser: safe,
+           
             cssProcessorOptions: options,
             canPrint: false,
         }),
