@@ -3,19 +3,19 @@ Happy[1]: All set; signaling webpack to proceed.
 {
   "errors": [],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (48.8 KiB). This can impact web performance.\nEntrypoints:\n  main (102 KiB)\n      manifest.7483.js\n      vendor.6cdd.css\n      vendor.84d5.js\n      main.e187.css\n      main.8aae.js\n",
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (48.8 KiB). This can impact web performance.\nEntrypoints:\n  main (102 KiB)\n      manifest.1c3f.js\n      vendor.6cdd.css\n      vendor.84d5.js\n      main.eb79.css\n      main.fb63.js\n",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.14.0",
-  "hash": "7ee7a847747b14d4a7a7",
-  "time": 85906,
-  "builtAt": 1532434078122,
-  "publicPath": "",
+  "hash": "358895d9f7d20216418c",
+  "time": 34533,
+  "builtAt": 1532692546373,
+  "publicPath": "/webpack4-demo/",
   "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
   "assetsByChunkName": {
     "manifest": [
-      "manifest.7483.js",
-      "manifest.7483.js.map"
+      "manifest.1c3f.js",
+      "manifest.1c3f.js.map"
     ],
     "vendor": [
       "vendor.6cdd.css",
@@ -24,16 +24,16 @@ Happy[1]: All set; signaling webpack to proceed.
       "vendor.84d5.js.map"
     ],
     "main": [
-      "main.e187.css",
-      "main.8aae.js",
-      "main.e187.css.map",
-      "main.8aae.js.map"
+      "main.eb79.css",
+      "main.fb63.js",
+      "main.eb79.css.map",
+      "main.fb63.js.map"
     ]
   },
   "assets": [
     {
-      "name": "main.8aae.js",
-      "size": 616,
+      "name": "main.fb63.js",
+      "size": 627,
       "chunks": [
         3
       ],
@@ -43,8 +43,8 @@ Happy[1]: All set; signaling webpack to proceed.
       "emitted": true
     },
     {
-      "name": "2120590964ae311d2ba0.worker.js",
-      "size": 1074,
+      "name": "5f14f490b9aaa74888a9.worker.js",
+      "size": 1089,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -57,8 +57,8 @@ Happy[1]: All set; signaling webpack to proceed.
       "emitted": true
     },
     {
-      "name": "manifest.7483.js",
-      "size": 1505,
+      "name": "manifest.1c3f.js",
+      "size": 1520,
       "chunks": [
         1
       ],
@@ -90,8 +90,8 @@ Happy[1]: All set; signaling webpack to proceed.
       "emitted": true
     },
     {
-      "name": "main.e187.css",
-      "size": 181,
+      "name": "main.eb79.css",
+      "size": 196,
       "chunks": [
         3
       ],
@@ -101,15 +101,15 @@ Happy[1]: All set; signaling webpack to proceed.
       "emitted": true
     },
     {
-      "name": "2120590964ae311d2ba0.worker.js.map",
-      "size": 4780,
+      "name": "5f14f490b9aaa74888a9.worker.js.map",
+      "size": 4796,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
-      "name": "manifest.7483.js.map",
-      "size": 7941,
+      "name": "manifest.1c3f.js.map",
+      "size": 7957,
       "chunks": [
         1
       ],
@@ -141,7 +141,7 @@ Happy[1]: All set; signaling webpack to proceed.
       "emitted": true
     },
     {
-      "name": "main.e187.css.map",
+      "name": "main.eb79.css.map",
       "size": 90,
       "chunks": [
         3
@@ -152,8 +152,8 @@ Happy[1]: All set; signaling webpack to proceed.
       "emitted": true
     },
     {
-      "name": "main.8aae.js.map",
-      "size": 1816,
+      "name": "main.fb63.js.map",
+      "size": 1828,
       "chunks": [
         3
       ],
@@ -164,7 +164,7 @@ Happy[1]: All set; signaling webpack to proceed.
     },
     {
       "name": "index.html",
-      "size": 400,
+      "size": 475,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -179,16 +179,16 @@ Happy[1]: All set; signaling webpack to proceed.
         3
       ],
       "assets": [
-        "manifest.7483.js",
-        "manifest.7483.js.map",
+        "manifest.1c3f.js",
+        "manifest.1c3f.js.map",
         "vendor.6cdd.css",
         "vendor.84d5.js",
         "vendor.6cdd.css.map",
         "vendor.84d5.js.map",
-        "main.e187.css",
-        "main.8aae.js",
-        "main.e187.css.map",
-        "main.8aae.js.map"
+        "main.eb79.css",
+        "main.fb63.js",
+        "main.eb79.css.map",
+        "main.fb63.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -203,16 +203,16 @@ Happy[1]: All set; signaling webpack to proceed.
         3
       ],
       "assets": [
-        "manifest.7483.js",
-        "manifest.7483.js.map",
+        "manifest.1c3f.js",
+        "manifest.1c3f.js.map",
         "vendor.6cdd.css",
         "vendor.84d5.js",
         "vendor.6cdd.css.map",
         "vendor.84d5.js.map",
-        "main.e187.css",
-        "main.8aae.js",
-        "main.e187.css.map",
-        "main.8aae.js.map"
+        "main.eb79.css",
+        "main.fb63.js",
+        "main.eb79.css.map",
+        "main.fb63.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -230,10 +230,10 @@ Happy[1]: All set; signaling webpack to proceed.
         "manifest"
       ],
       "files": [
-        "manifest.7483.js",
-        "manifest.7483.js.map"
+        "manifest.1c3f.js",
+        "manifest.1c3f.js.map"
       ],
-      "hash": "7483219b6b6ee52164d7",
+      "hash": "1c3f927aa9717a37dd11",
       "siblings": [
         2,
         3
@@ -1219,17 +1219,17 @@ Happy[1]: All set; signaling webpack to proceed.
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 1243,
+      "size": 1269,
       "names": [
         "main"
       ],
       "files": [
-        "main.e187.css",
-        "main.8aae.js",
-        "main.e187.css.map",
-        "main.8aae.js.map"
+        "main.eb79.css",
+        "main.fb63.js",
+        "main.eb79.css.map",
+        "main.fb63.js.map"
       ],
-      "hash": "8aae44ddb147f9503c74",
+      "hash": "fb638f3a8a9b91848d44",
       "siblings": [
         1,
         2
@@ -1244,7 +1244,7 @@ Happy[1]: All set; signaling webpack to proceed.
           "name": "./src/index.js + 2 modules",
           "index": 0,
           "index2": 21,
-          "size": 881,
+          "size": 892,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1323,7 +1323,7 @@ Happy[1]: All set; signaling webpack to proceed.
               "name": "./src/component.js",
               "index": 1,
               "index2": 1,
-              "size": 513,
+              "size": 524,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1371,7 +1371,7 @@ Happy[1]: All set; signaling webpack to proceed.
               ],
               "optimizationBailout": [],
               "depth": 1,
-              "source": "import Worker from \"worker-loader!./worker\";\n\nexport default (function () {\n    var element = document.createElement(\"h1\");\n    var worker = new Worker();\n    var state = { text: \"foo\" };\n\n    worker.addEventListener(\"message\", function (_ref) {\n        var text = _ref.data.text;\n\n        state.text = text;\n        element.innerHTML = text;\n    });\n\n    element.innerHTML = state.text;\n\n    element.onclick = function () {\n        return worker.postMessage({ text: state.text });\n    };\n\n    return element;\n});"
+              "source": "import Worker from \"worker-loader!./worker\";\n\nexport default (function () {\n    var element = document.createElement(\"h1\");\n    var worker = new Worker();\n    var state = { text: \"Many Learnings\" };\n\n    worker.addEventListener(\"message\", function (_ref) {\n        var text = _ref.data.text;\n\n        state.text = text;\n        element.innerHTML = text;\n    });\n\n    element.innerHTML = state.text;\n\n    element.onclick = function () {\n        return worker.postMessage({ text: state.text });\n    };\n\n    return element;\n});"
             },
             {
               "id": null,
@@ -1439,7 +1439,7 @@ Happy[1]: All set; signaling webpack to proceed.
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--5-2!./src/main.css",
           "index": 4,
           "index2": 2,
-          "size": 210,
+          "size": 225,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -1588,7 +1588,7 @@ Happy[1]: All set; signaling webpack to proceed.
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2,
-          "source": "module.exports = function() {\n  return new Worker(__webpack_public_path__ + \"2120590964ae311d2ba0.worker.js\");\n};"
+          "source": "module.exports = function() {\n  return new Worker(__webpack_public_path__ + \"5f14f490b9aaa74888a9.worker.js\");\n};"
         }
       ],
       "filteredModules": 0,
@@ -1931,7 +1931,7 @@ Happy[1]: All set; signaling webpack to proceed.
       "name": "./src/index.js + 2 modules",
       "index": 0,
       "index2": 21,
-      "size": 881,
+      "size": 892,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2010,7 +2010,7 @@ Happy[1]: All set; signaling webpack to proceed.
           "name": "./src/component.js",
           "index": 1,
           "index2": 1,
-          "size": 513,
+          "size": 524,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2058,7 +2058,7 @@ Happy[1]: All set; signaling webpack to proceed.
           ],
           "optimizationBailout": [],
           "depth": 1,
-          "source": "import Worker from \"worker-loader!./worker\";\n\nexport default (function () {\n    var element = document.createElement(\"h1\");\n    var worker = new Worker();\n    var state = { text: \"foo\" };\n\n    worker.addEventListener(\"message\", function (_ref) {\n        var text = _ref.data.text;\n\n        state.text = text;\n        element.innerHTML = text;\n    });\n\n    element.innerHTML = state.text;\n\n    element.onclick = function () {\n        return worker.postMessage({ text: state.text });\n    };\n\n    return element;\n});"
+          "source": "import Worker from \"worker-loader!./worker\";\n\nexport default (function () {\n    var element = document.createElement(\"h1\");\n    var worker = new Worker();\n    var state = { text: \"Many Learnings\" };\n\n    worker.addEventListener(\"message\", function (_ref) {\n        var text = _ref.data.text;\n\n        state.text = text;\n        element.innerHTML = text;\n    });\n\n    element.innerHTML = state.text;\n\n    element.onclick = function () {\n        return worker.postMessage({ text: state.text });\n    };\n\n    return element;\n});"
         },
         {
           "id": null,
@@ -2728,7 +2728,7 @@ Happy[1]: All set; signaling webpack to proceed.
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--5-2!./src/main.css",
       "index": 4,
       "index2": 2,
-      "size": 210,
+      "size": 225,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -2877,7 +2877,7 @@ Happy[1]: All set; signaling webpack to proceed.
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "module.exports = function() {\n  return new Worker(__webpack_public_path__ + \"2120590964ae311d2ba0.worker.js\");\n};"
+      "source": "module.exports = function() {\n  return new Worker(__webpack_public_path__ + \"5f14f490b9aaa74888a9.worker.js\");\n};"
     }
   ],
   "filteredModules": 0,
@@ -2885,13 +2885,13 @@ Happy[1]: All set; signaling webpack to proceed.
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {},
       "assets": [
         {
           "name": "index.html",
-          "size": 545197,
+          "size": 545212,
           "chunks": [
             1
           ],
@@ -2934,7 +2934,7 @@ Happy[1]: All set; signaling webpack to proceed.
           "files": [
             "index.html"
           ],
-          "hash": "9fb23b0ce82136bafb54",
+          "hash": "2e4bd868b42043a0dcea",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -3345,7 +3345,7 @@ Happy[1]: All set; signaling webpack to proceed.
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {},
       "assets": [],
@@ -3387,7 +3387,7 @@ Happy[1]: All set; signaling webpack to proceed.
           "files": [
             "*"
           ],
-          "hash": "ab772a8e9148b99eb2b3",
+          "hash": "06dd3011b06f61fdec59",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -3592,7 +3592,7 @@ Happy[1]: All set; signaling webpack to proceed.
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {},
       "assets": [
@@ -3642,7 +3642,7 @@ Happy[1]: All set; signaling webpack to proceed.
           "files": [
             "*"
           ],
-          "hash": "fe624446d8cfc8511bf3",
+          "hash": "24f5cca357547ecd6c90",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -4039,18 +4039,18 @@ Happy[1]: All set; signaling webpack to proceed.
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {
         "main": [
-          "2120590964ae311d2ba0.worker.js",
-          "2120590964ae311d2ba0.worker.js.map"
+          "5f14f490b9aaa74888a9.worker.js",
+          "5f14f490b9aaa74888a9.worker.js.map"
         ]
       },
       "assets": [
         {
-          "name": "2120590964ae311d2ba0.worker.js",
-          "size": 1074,
+          "name": "5f14f490b9aaa74888a9.worker.js",
+          "size": 1089,
           "chunks": [
             0
           ],
@@ -4060,8 +4060,8 @@ Happy[1]: All set; signaling webpack to proceed.
           "emitted": true
         },
         {
-          "name": "2120590964ae311d2ba0.worker.js.map",
-          "size": 4780,
+          "name": "5f14f490b9aaa74888a9.worker.js.map",
+          "size": 4796,
           "chunks": [
             0
           ],
@@ -4078,8 +4078,8 @@ Happy[1]: All set; signaling webpack to proceed.
             0
           ],
           "assets": [
-            "2120590964ae311d2ba0.worker.js",
-            "2120590964ae311d2ba0.worker.js.map"
+            "5f14f490b9aaa74888a9.worker.js",
+            "5f14f490b9aaa74888a9.worker.js.map"
           ],
           "children": {},
           "childAssets": {}
@@ -4091,8 +4091,8 @@ Happy[1]: All set; signaling webpack to proceed.
             0
           ],
           "assets": [
-            "2120590964ae311d2ba0.worker.js",
-            "2120590964ae311d2ba0.worker.js.map"
+            "5f14f490b9aaa74888a9.worker.js",
+            "5f14f490b9aaa74888a9.worker.js.map"
           ],
           "children": {},
           "childAssets": {}
@@ -4109,10 +4109,10 @@ Happy[1]: All set; signaling webpack to proceed.
             "main"
           ],
           "files": [
-            "2120590964ae311d2ba0.worker.js",
-            "2120590964ae311d2ba0.worker.js.map"
+            "5f14f490b9aaa74888a9.worker.js",
+            "5f14f490b9aaa74888a9.worker.js.map"
           ],
-          "hash": "5c3e78152ed639a9dbb4",
+          "hash": "9e5e9946d9207df92a29",
           "siblings": [],
           "parents": [],
           "children": [],

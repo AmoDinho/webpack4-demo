@@ -1,4 +1,5 @@
 const parts = require("./webpack.parts");
+const path = require("path");
 
 module.exports = config =>{
     const tests = "tests/*.test.js";
@@ -15,6 +16,11 @@ module.exports = config =>{
         },
         webpack: parts.loadJavaScript(),
         singleRun: true, 
-        browsers: ["PhantomJS"]
+        browsers: ["PhantomJS"],
+        reporters: ["coverage"],
+        coverageReporter:{
+            dir: "build",
+            reporters: [{type: "html"},{type:"lcov"}],
+        },
     });
 };

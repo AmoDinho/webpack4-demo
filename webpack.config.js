@@ -13,7 +13,7 @@ const PATHS = {
 
 const commonConfig = merge([
     {
-
+      
      
         plugins:[
             new htmlWebpackPlugin({
@@ -35,6 +35,12 @@ const commonConfig = merge([
 
 const productionConfig = merge([
 
+
+    {
+        output:{
+            publicPath: "/webpack4-demo/"
+      },
+    },
     parts.extractCSS({
         use: ["css-loader",parts.autoprefix()],
     }),
