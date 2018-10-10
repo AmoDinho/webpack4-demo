@@ -13,7 +13,7 @@ const PATHS = {
 
 const commonConfig = merge([
     {
-
+      
      
         plugins:[
             new htmlWebpackPlugin({
@@ -28,13 +28,19 @@ const commonConfig = merge([
     },
 
     parts.loadJavaScript({include: PATHS.app}),
-    parts.setFreeVariavble("HELLO","Wad up from config!")
+    parts.setFreeVariable("HELLO","Wad up from config!")
     
 ]);
 
 
 const productionConfig = merge([
 
+
+    {
+        output:{
+            publicPath: "/webpack4-demo/"
+      },
+    },
     parts.extractCSS({
         use: ["css-loader",parts.autoprefix()],
     }),
@@ -74,7 +80,7 @@ const productionConfig = merge([
     },
     parts.generateSourceMaps({type: "source-map"}),
     parts.clean(PATHS.build),
-    parts.minifyJavascript(),
+    parts.minifyJavaScript(),
     
     parts.minifyCSS({
         options: {

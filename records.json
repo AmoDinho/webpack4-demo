@@ -95,7 +95,10 @@
       "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\purecss\\build\\pure-min.css": 16,
       "css ../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css 0": 17,
       "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css": 18,
-      "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\lazy.js": 19
+      "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\lazy.js": 19,
+      "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\happypack\\loader.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 255e10c3e9403056644aebd221c1e9f4": 5,
+      "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\happypack\\loader.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\lazy.js": 19,
+      "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\worker-loader\\dist\\cjs.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js": 19
     },
     "usedIds": {
       "0": 0,
@@ -127,13 +130,34 @@
       "main": 3
     },
     "bySource": {
-      "0 ../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js ./lazy": 0
+      "0 ../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js ./lazy": 0,
+      "0 ../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\happypack\\loader.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js ./lazy": 4
     },
     "usedIds": [
-      0,
       1,
       2,
       3
     ]
-  }
+  },
+  "worker": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js": 0
+        },
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "chunks": {
+        "byName": {
+          "main": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
 }

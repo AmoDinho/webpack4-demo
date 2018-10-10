@@ -1,18 +1,21 @@
+Happy[1]: Version: 5.0.0. Threads: 3
+Happy[1]: All set; signaling webpack to proceed.
 {
   "errors": [],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (48.8 KiB). This can impact web performance.\nEntrypoints:\n  main (104 KiB)\n      manifest.2545.js\n      vendor.6cdd.css\n      vendor.84d5.js\n      main.e187.css\n      main.33a4.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (48.8 KiB). This can impact web performance.\nEntrypoints:\n  main (102 KiB)\n      manifest.1c3f.js\n      vendor.6cdd.css\n      vendor.84d5.js\n      main.eb79.css\n      main.fb63.js\n",
+    "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.14.0",
-  "hash": "d8562e0b42d7992c907a",
-  "time": 21829,
-  "builtAt": 1531830087331,
-  "publicPath": "",
+  "hash": "358895d9f7d20216418c",
+  "time": 34533,
+  "builtAt": 1532692546373,
+  "publicPath": "/webpack4-demo/",
   "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
   "assetsByChunkName": {
     "manifest": [
-      "manifest.2545.js",
-      "manifest.2545.js.map"
+      "manifest.1c3f.js",
+      "manifest.1c3f.js.map"
     ],
     "vendor": [
       "vendor.6cdd.css",
@@ -21,19 +24,28 @@
       "vendor.84d5.js.map"
     ],
     "main": [
-      "main.e187.css",
-      "main.33a4.js",
-      "main.e187.css.map",
-      "main.33a4.js.map"
+      "main.eb79.css",
+      "main.fb63.js",
+      "main.eb79.css.map",
+      "main.fb63.js.map"
     ]
   },
   "assets": [
     {
-      "name": "0.53ad.js.map",
-      "size": 202,
+      "name": "main.fb63.js",
+      "size": 627,
       "chunks": [
-        0
+        3
       ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "5f14f490b9aaa74888a9.worker.js",
+      "size": 1089,
+      "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
@@ -45,8 +57,8 @@
       "emitted": true
     },
     {
-      "name": "manifest.2545.js",
-      "size": 2276,
+      "name": "manifest.1c3f.js",
+      "size": 1520,
       "chunks": [
         1
       ],
@@ -57,7 +69,7 @@
     },
     {
       "name": "vendor.6cdd.css",
-      "size": 1972,
+      "size": 575,
       "chunks": [
         2
       ],
@@ -78,8 +90,8 @@
       "emitted": true
     },
     {
-      "name": "main.e187.css",
-      "size": 212,
+      "name": "main.eb79.css",
+      "size": 196,
       "chunks": [
         3
       ],
@@ -89,28 +101,15 @@
       "emitted": true
     },
     {
-      "name": "main.33a4.js",
-      "size": 569,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "0.53ad.js",
-      "size": 178,
-      "chunks": [
-        0
-      ],
+      "name": "5f14f490b9aaa74888a9.worker.js.map",
+      "size": 4796,
+      "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
-      "name": "manifest.2545.js.map",
-      "size": 11935,
+      "name": "manifest.1c3f.js.map",
+      "size": 7957,
       "chunks": [
         1
       ],
@@ -142,7 +141,7 @@
       "emitted": true
     },
     {
-      "name": "main.e187.css.map",
+      "name": "main.eb79.css.map",
       "size": 90,
       "chunks": [
         3
@@ -153,8 +152,8 @@
       "emitted": true
     },
     {
-      "name": "main.33a4.js.map",
-      "size": 1565,
+      "name": "main.fb63.js.map",
+      "size": 1828,
       "chunks": [
         3
       ],
@@ -165,7 +164,7 @@
     },
     {
       "name": "index.html",
-      "size": 400,
+      "size": 475,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -180,16 +179,16 @@
         3
       ],
       "assets": [
-        "manifest.2545.js",
-        "manifest.2545.js.map",
+        "manifest.1c3f.js",
+        "manifest.1c3f.js.map",
         "vendor.6cdd.css",
         "vendor.84d5.js",
         "vendor.6cdd.css.map",
         "vendor.84d5.js.map",
-        "main.e187.css",
-        "main.33a4.js",
-        "main.e187.css.map",
-        "main.33a4.js.map"
+        "main.eb79.css",
+        "main.fb63.js",
+        "main.eb79.css.map",
+        "main.fb63.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -204,16 +203,16 @@
         3
       ],
       "assets": [
-        "manifest.2545.js",
-        "manifest.2545.js.map",
+        "manifest.1c3f.js",
+        "manifest.1c3f.js.map",
         "vendor.6cdd.css",
         "vendor.84d5.js",
         "vendor.6cdd.css.map",
         "vendor.84d5.js.map",
-        "main.e187.css",
-        "main.33a4.js",
-        "main.e187.css.map",
-        "main.33a4.js.map"
+        "main.eb79.css",
+        "main.fb63.js",
+        "main.eb79.css.map",
+        "main.fb63.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -221,95 +220,6 @@
     }
   },
   "chunks": [
-    {
-      "id": 0,
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "size": 33,
-      "names": [],
-      "files": [
-        "0.53ad.js",
-        "0.53ad.js.map"
-      ],
-      "hash": "53ad8c046e81328a8c21",
-      "siblings": [],
-      "parents": [
-        1,
-        2,
-        3
-      ],
-      "children": [],
-      "childrenByOrder": {},
-      "modules": [
-        {
-          "id": 19,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\lazy.js",
-          "name": "./src/lazy.js",
-          "index": 21,
-          "index2": 21,
-          "size": 33,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
-          "issuerId": null,
-          "issuerName": "./src/component.js",
-          "issuerPath": [
-            {
-              "id": null,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js",
-              "name": "./src/index.js"
-            },
-            {
-              "id": null,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
-              "name": "./src/component.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": null,
-              "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
-              "module": "./src/component.js",
-              "moduleName": "./src/component.js",
-              "type": "import()",
-              "userRequest": "./lazy",
-              "loc": "12:15-31"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/component.js (referenced with import())"
-          ],
-          "depth": 2,
-          "source": "export default \"Hello from Lazy\";"
-        }
-      ],
-      "filteredModules": 0,
-      "origins": [
-        {
-          "moduleId": null,
-          "module": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
-          "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
-          "moduleName": "./src/component.js",
-          "loc": "12:15-31",
-          "request": "./lazy",
-          "reasons": []
-        }
-      ]
-    },
     {
       "id": 1,
       "rendered": true,
@@ -320,18 +230,16 @@
         "manifest"
       ],
       "files": [
-        "manifest.2545.js",
-        "manifest.2545.js.map"
+        "manifest.1c3f.js",
+        "manifest.1c3f.js.map"
       ],
-      "hash": "254589f5d6529c8b48f3",
+      "hash": "1c3f927aa9717a37dd11",
       "siblings": [
         2,
         3
       ],
       "parents": [],
-      "children": [
-        0
-      ],
+      "children": [],
       "childrenByOrder": {},
       "modules": [],
       "filteredModules": 0,
@@ -368,17 +276,15 @@
         3
       ],
       "parents": [],
-      "children": [
-        0
-      ],
+      "children": [],
       "childrenByOrder": {},
       "modules": [
         {
           "id": 0,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\emptyFunction.js",
           "name": "./node_modules/fbjs/lib/emptyFunction.js",
-          "index": 12,
-          "index2": 9,
+          "index": 13,
+          "index2": 10,
           "size": 959,
           "cacheable": true,
           "built": true,
@@ -387,9 +293,9 @@
           "chunks": [
             2
           ],
-          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "issuerId": 14,
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "issuerPath": [
             {
               "id": null,
@@ -397,14 +303,14 @@
               "name": "./src/index.js"
             },
             {
-              "id": 13,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-              "name": "./node_modules/react-dom/index.js"
+              "id": 4,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js"
             },
             {
-              "id": 12,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+              "id": 14,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+              "name": "./node_modules/react/cjs/react.production.min.js"
             }
           ],
           "failed": false,
@@ -443,8 +349,8 @@
           "id": 1,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\emptyObject.js",
           "name": "./node_modules/fbjs/lib/emptyObject.js",
-          "index": 11,
-          "index2": 8,
+          "index": 12,
+          "index2": 9,
           "size": 332,
           "cacheable": true,
           "built": true,
@@ -453,9 +359,9 @@
           "chunks": [
             2
           ],
-          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "issuerId": 14,
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "issuerPath": [
             {
               "id": null,
@@ -463,14 +369,14 @@
               "name": "./src/index.js"
             },
             {
-              "id": 13,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-              "name": "./node_modules/react-dom/index.js"
+              "id": 4,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js"
             },
             {
-              "id": 12,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+              "id": 14,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+              "name": "./node_modules/react/cjs/react.production.min.js"
             }
           ],
           "failed": false,
@@ -509,8 +415,8 @@
           "id": 2,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\invariant.js",
           "name": "./node_modules/fbjs/lib/invariant.js",
-          "index": 10,
-          "index2": 7,
+          "index": 11,
+          "index2": 8,
           "size": 1506,
           "cacheable": true,
           "built": true,
@@ -519,9 +425,9 @@
           "chunks": [
             2
           ],
-          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "issuerId": 14,
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "issuerPath": [
             {
               "id": null,
@@ -529,14 +435,14 @@
               "name": "./src/index.js"
             },
             {
-              "id": 13,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-              "name": "./node_modules/react-dom/index.js"
+              "id": 4,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js"
             },
             {
-              "id": 12,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+              "id": 14,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+              "name": "./node_modules/react/cjs/react.production.min.js"
             }
           ],
           "failed": false,
@@ -575,8 +481,8 @@
           "id": 3,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\object-assign\\index.js",
           "name": "./node_modules/object-assign/index.js",
-          "index": 9,
-          "index2": 6,
+          "index": 10,
+          "index2": 7,
           "size": 2108,
           "cacheable": true,
           "built": true,
@@ -585,9 +491,9 @@
           "chunks": [
             2
           ],
-          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "issuerId": 14,
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "issuerPath": [
             {
               "id": null,
@@ -595,14 +501,14 @@
               "name": "./src/index.js"
             },
             {
-              "id": 13,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-              "name": "./node_modules/react-dom/index.js"
+              "id": 4,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js"
             },
             {
-              "id": 12,
-              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+              "id": 14,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+              "name": "./node_modules/react/cjs/react.production.min.js"
             }
           ],
           "failed": false,
@@ -641,8 +547,8 @@
           "id": 4,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
           "name": "./node_modules/react/index.js",
-          "index": 7,
-          "index2": 11,
+          "index": 8,
+          "index2": 12,
           "size": 190,
           "cacheable": true,
           "built": true,
@@ -697,8 +603,8 @@
           "id": 6,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\isNode.js",
           "name": "./node_modules/fbjs/lib/isNode.js",
-          "index": 20,
-          "index2": 15,
+          "index": 21,
+          "index2": 16,
           "size": 702,
           "cacheable": true,
           "built": true,
@@ -764,8 +670,8 @@
           "id": 7,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\isTextNode.js",
           "name": "./node_modules/fbjs/lib/isTextNode.js",
-          "index": 19,
-          "index2": 16,
+          "index": 20,
+          "index2": 17,
           "size": 479,
           "cacheable": true,
           "built": true,
@@ -826,8 +732,8 @@
           "id": 8,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\containsNode.js",
           "name": "./node_modules/fbjs/lib/containsNode.js",
-          "index": 18,
-          "index2": 17,
+          "index": 19,
+          "index2": 18,
           "size": 923,
           "cacheable": true,
           "built": true,
@@ -883,8 +789,8 @@
           "id": 9,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\shallowEqual.js",
           "name": "./node_modules/fbjs/lib/shallowEqual.js",
-          "index": 17,
-          "index2": 14,
+          "index": 18,
+          "index2": 15,
           "size": 1616,
           "cacheable": true,
           "built": true,
@@ -940,8 +846,8 @@
           "id": 10,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\getActiveElement.js",
           "name": "./node_modules/fbjs/lib/getActiveElement.js",
-          "index": 16,
-          "index2": 13,
+          "index": 17,
+          "index2": 14,
           "size": 912,
           "cacheable": true,
           "built": true,
@@ -997,8 +903,8 @@
           "id": 11,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js",
           "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-          "index": 15,
-          "index2": 12,
+          "index": 16,
+          "index2": 13,
           "size": 935,
           "cacheable": true,
           "built": true,
@@ -1054,8 +960,8 @@
           "id": 12,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
           "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "index": 14,
-          "index2": 18,
+          "index": 15,
+          "index2": 19,
           "size": 94969,
           "cacheable": true,
           "built": true,
@@ -1106,8 +1012,8 @@
           "id": 13,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
           "name": "./node_modules/react-dom/index.js",
-          "index": 13,
-          "index2": 19,
+          "index": 14,
+          "index2": 20,
           "size": 1363,
           "cacheable": true,
           "built": true,
@@ -1153,8 +1059,8 @@
           "id": 14,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
           "name": "./node_modules/react/cjs/react.production.min.js",
-          "index": 8,
-          "index2": 10,
+          "index": 9,
+          "index2": 11,
           "size": 5724,
           "cacheable": true,
           "built": true,
@@ -1205,8 +1111,8 @@
           "id": 15,
           "identifier": "css C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\purecss\\build\\pure-min.css 0",
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--5-2!./node_modules/purecss/build/pure-min.css",
-          "index": 5,
-          "index2": 3,
+          "index": 6,
+          "index2": 4,
           "size": 16808,
           "built": false,
           "optional": false,
@@ -1252,8 +1158,8 @@
           "id": 16,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\purecss\\build\\pure-min.css",
           "name": "./node_modules/purecss/build/pure-min.css",
-          "index": 4,
-          "index2": 4,
+          "index": 5,
+          "index2": 5,
           "size": 39,
           "cacheable": true,
           "built": true,
@@ -1313,25 +1219,23 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 1103,
+      "size": 1269,
       "names": [
         "main"
       ],
       "files": [
-        "main.e187.css",
-        "main.33a4.js",
-        "main.e187.css.map",
-        "main.33a4.js.map"
+        "main.eb79.css",
+        "main.fb63.js",
+        "main.eb79.css.map",
+        "main.fb63.js.map"
       ],
-      "hash": "33a447f12383c0dba489",
+      "hash": "fb638f3a8a9b91848d44",
       "siblings": [
         1,
         2
       ],
       "parents": [],
-      "children": [
-        0
-      ],
+      "children": [],
       "childrenByOrder": {},
       "modules": [
         {
@@ -1339,8 +1243,8 @@
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 52f28e5b741ecfe7e4c9da85a49dbd93",
           "name": "./src/index.js + 2 modules",
           "index": 0,
-          "index2": 20,
-          "size": 854,
+          "index2": 21,
+          "size": 892,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1369,7 +1273,9 @@
           ],
           "usedExports": true,
           "providedExports": [],
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/worker-loader/dist/cjs.js!./src/worker.js (<- Module is not an ECMAScript module)"
+          ],
           "depth": 0,
           "modules": [
             {
@@ -1377,7 +1283,7 @@
               "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js",
               "name": "./src/index.js",
               "index": 0,
-              "index2": 20,
+              "index2": 21,
               "size": 192,
               "cacheable": true,
               "built": true,
@@ -1416,8 +1322,8 @@
               "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
               "name": "./src/component.js",
               "index": 1,
-              "index2": 0,
-              "size": 491,
+              "index2": 1,
+              "size": 524,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1465,14 +1371,14 @@
               ],
               "optimizationBailout": [],
               "depth": 1,
-              "source": "\n\nexport default (function () {\n    var text = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : HELLO;\n\n    var element = document.createElement(\"div\");\n\n    element.className = \"pure-button\";\n    element.innerHTML = text;\n\n    element.onclick = function () {\n        return import(\"./lazy\").then(function (lazy) {\n            element.textContent = lazy.default;\n        }).catch(function (err) {\n            console.error(err);\n        });\n    };\n\n    return element;\n});"
+              "source": "import Worker from \"worker-loader!./worker\";\n\nexport default (function () {\n    var element = document.createElement(\"h1\");\n    var worker = new Worker();\n    var state = { text: \"Many Learnings\" };\n\n    worker.addEventListener(\"message\", function (_ref) {\n        var text = _ref.data.text;\n\n        state.text = text;\n        element.innerHTML = text;\n    });\n\n    element.innerHTML = state.text;\n\n    element.onclick = function () {\n        return worker.postMessage({ text: state.text });\n    };\n\n    return element;\n});"
             },
             {
               "id": null,
               "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\shake.js",
               "name": "./src/shake.js",
-              "index": 6,
-              "index2": 5,
+              "index": 7,
+              "index2": 6,
               "size": 151,
               "cacheable": true,
               "built": true,
@@ -1531,9 +1437,9 @@
           "id": 17,
           "identifier": "css C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css 0",
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--5-2!./src/main.css",
-          "index": 3,
-          "index2": 1,
-          "size": 210,
+          "index": 4,
+          "index2": 2,
+          "size": 225,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -1578,8 +1484,8 @@
           "id": 18,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css",
           "name": "./src/main.css",
-          "index": 2,
-          "index2": 2,
+          "index": 3,
+          "index2": 3,
           "size": 39,
           "cacheable": true,
           "built": true,
@@ -1620,6 +1526,69 @@
           ],
           "depth": 1,
           "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": 19,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\worker-loader\\dist\\cjs.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+          "name": "./node_modules/worker-loader/dist/cjs.js!./src/worker.js",
+          "index": 2,
+          "index2": 0,
+          "size": 113,
+          "cacheable": false,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
+          "issuerId": null,
+          "issuerName": "./src/component.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
+              "name": "./src/component.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 52f28e5b741ecfe7e4c9da85a49dbd93",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "worker-loader!./worker",
+              "loc": "1:0-44"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 52f28e5b741ecfe7e4c9da85a49dbd93",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "worker-loader!./worker",
+              "loc": "5:21-27"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "module.exports = function() {\n  return new Worker(__webpack_public_path__ + \"5f14f490b9aaa74888a9.worker.js\");\n};"
         }
       ],
       "filteredModules": 0,
@@ -1640,8 +1609,8 @@
       "id": 0,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\emptyFunction.js",
       "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "index": 12,
-      "index2": 9,
+      "index": 13,
+      "index2": 10,
       "size": 959,
       "cacheable": true,
       "built": true,
@@ -1650,9 +1619,9 @@
       "chunks": [
         2
       ],
-      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+      "issuerId": 14,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "issuerPath": [
         {
           "id": null,
@@ -1660,14 +1629,14 @@
           "name": "./src/index.js"
         },
         {
-          "id": 13,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-          "name": "./node_modules/react-dom/index.js"
+          "id": 4,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
         },
         {
-          "id": 12,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+          "id": 14,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
         }
       ],
       "failed": false,
@@ -1706,8 +1675,8 @@
       "id": 1,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\emptyObject.js",
       "name": "./node_modules/fbjs/lib/emptyObject.js",
-      "index": 11,
-      "index2": 8,
+      "index": 12,
+      "index2": 9,
       "size": 332,
       "cacheable": true,
       "built": true,
@@ -1716,9 +1685,9 @@
       "chunks": [
         2
       ],
-      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+      "issuerId": 14,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "issuerPath": [
         {
           "id": null,
@@ -1726,14 +1695,14 @@
           "name": "./src/index.js"
         },
         {
-          "id": 13,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-          "name": "./node_modules/react-dom/index.js"
+          "id": 4,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
         },
         {
-          "id": 12,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+          "id": 14,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
         }
       ],
       "failed": false,
@@ -1772,8 +1741,8 @@
       "id": 2,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\invariant.js",
       "name": "./node_modules/fbjs/lib/invariant.js",
-      "index": 10,
-      "index2": 7,
+      "index": 11,
+      "index2": 8,
       "size": 1506,
       "cacheable": true,
       "built": true,
@@ -1782,9 +1751,9 @@
       "chunks": [
         2
       ],
-      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+      "issuerId": 14,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "issuerPath": [
         {
           "id": null,
@@ -1792,14 +1761,14 @@
           "name": "./src/index.js"
         },
         {
-          "id": 13,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-          "name": "./node_modules/react-dom/index.js"
+          "id": 4,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
         },
         {
-          "id": 12,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+          "id": 14,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
         }
       ],
       "failed": false,
@@ -1838,8 +1807,8 @@
       "id": 3,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\object-assign\\index.js",
       "name": "./node_modules/object-assign/index.js",
-      "index": 9,
-      "index2": 6,
+      "index": 10,
+      "index2": 7,
       "size": 2108,
       "cacheable": true,
       "built": true,
@@ -1848,9 +1817,9 @@
       "chunks": [
         2
       ],
-      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+      "issuerId": 14,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "issuerPath": [
         {
           "id": null,
@@ -1858,14 +1827,14 @@
           "name": "./src/index.js"
         },
         {
-          "id": 13,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
-          "name": "./node_modules/react-dom/index.js"
+          "id": 4,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
         },
         {
-          "id": 12,
-          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
-          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+          "id": 14,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
         }
       ],
       "failed": false,
@@ -1904,8 +1873,8 @@
       "id": 4,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\index.js",
       "name": "./node_modules/react/index.js",
-      "index": 7,
-      "index2": 11,
+      "index": 8,
+      "index2": 12,
       "size": 190,
       "cacheable": true,
       "built": true,
@@ -1961,8 +1930,8 @@
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 52f28e5b741ecfe7e4c9da85a49dbd93",
       "name": "./src/index.js + 2 modules",
       "index": 0,
-      "index2": 20,
-      "size": 854,
+      "index2": 21,
+      "size": 892,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1991,7 +1960,9 @@
       ],
       "usedExports": true,
       "providedExports": [],
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/worker-loader/dist/cjs.js!./src/worker.js (<- Module is not an ECMAScript module)"
+      ],
       "depth": 0,
       "modules": [
         {
@@ -1999,7 +1970,7 @@
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js",
           "name": "./src/index.js",
           "index": 0,
-          "index2": 20,
+          "index2": 21,
           "size": 192,
           "cacheable": true,
           "built": true,
@@ -2038,8 +2009,8 @@
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
           "name": "./src/component.js",
           "index": 1,
-          "index2": 0,
-          "size": 491,
+          "index2": 1,
+          "size": 524,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2087,14 +2058,14 @@
           ],
           "optimizationBailout": [],
           "depth": 1,
-          "source": "\n\nexport default (function () {\n    var text = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : HELLO;\n\n    var element = document.createElement(\"div\");\n\n    element.className = \"pure-button\";\n    element.innerHTML = text;\n\n    element.onclick = function () {\n        return import(\"./lazy\").then(function (lazy) {\n            element.textContent = lazy.default;\n        }).catch(function (err) {\n            console.error(err);\n        });\n    };\n\n    return element;\n});"
+          "source": "import Worker from \"worker-loader!./worker\";\n\nexport default (function () {\n    var element = document.createElement(\"h1\");\n    var worker = new Worker();\n    var state = { text: \"Many Learnings\" };\n\n    worker.addEventListener(\"message\", function (_ref) {\n        var text = _ref.data.text;\n\n        state.text = text;\n        element.innerHTML = text;\n    });\n\n    element.innerHTML = state.text;\n\n    element.onclick = function () {\n        return worker.postMessage({ text: state.text });\n    };\n\n    return element;\n});"
         },
         {
           "id": null,
           "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\shake.js",
           "name": "./src/shake.js",
-          "index": 6,
-          "index2": 5,
+          "index": 7,
+          "index2": 6,
           "size": 151,
           "cacheable": true,
           "built": true,
@@ -2153,8 +2124,8 @@
       "id": 6,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\isNode.js",
       "name": "./node_modules/fbjs/lib/isNode.js",
-      "index": 20,
-      "index2": 15,
+      "index": 21,
+      "index2": 16,
       "size": 702,
       "cacheable": true,
       "built": true,
@@ -2220,8 +2191,8 @@
       "id": 7,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\isTextNode.js",
       "name": "./node_modules/fbjs/lib/isTextNode.js",
-      "index": 19,
-      "index2": 16,
+      "index": 20,
+      "index2": 17,
       "size": 479,
       "cacheable": true,
       "built": true,
@@ -2282,8 +2253,8 @@
       "id": 8,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\containsNode.js",
       "name": "./node_modules/fbjs/lib/containsNode.js",
-      "index": 18,
-      "index2": 17,
+      "index": 19,
+      "index2": 18,
       "size": 923,
       "cacheable": true,
       "built": true,
@@ -2339,8 +2310,8 @@
       "id": 9,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\shallowEqual.js",
       "name": "./node_modules/fbjs/lib/shallowEqual.js",
-      "index": 17,
-      "index2": 14,
+      "index": 18,
+      "index2": 15,
       "size": 1616,
       "cacheable": true,
       "built": true,
@@ -2396,8 +2367,8 @@
       "id": 10,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\getActiveElement.js",
       "name": "./node_modules/fbjs/lib/getActiveElement.js",
-      "index": 16,
-      "index2": 13,
+      "index": 17,
+      "index2": 14,
       "size": 912,
       "cacheable": true,
       "built": true,
@@ -2453,8 +2424,8 @@
       "id": 11,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js",
       "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-      "index": 15,
-      "index2": 12,
+      "index": 16,
+      "index2": 13,
       "size": 935,
       "cacheable": true,
       "built": true,
@@ -2510,8 +2481,8 @@
       "id": 12,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
       "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "index": 14,
-      "index2": 18,
+      "index": 15,
+      "index2": 19,
       "size": 94969,
       "cacheable": true,
       "built": true,
@@ -2562,8 +2533,8 @@
       "id": 13,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react-dom\\index.js",
       "name": "./node_modules/react-dom/index.js",
-      "index": 13,
-      "index2": 19,
+      "index": 14,
+      "index2": 20,
       "size": 1363,
       "cacheable": true,
       "built": true,
@@ -2609,8 +2580,8 @@
       "id": 14,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\react\\cjs\\react.production.min.js",
       "name": "./node_modules/react/cjs/react.production.min.js",
-      "index": 8,
-      "index2": 10,
+      "index": 9,
+      "index2": 11,
       "size": 5724,
       "cacheable": true,
       "built": true,
@@ -2661,8 +2632,8 @@
       "id": 15,
       "identifier": "css C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\purecss\\build\\pure-min.css 0",
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--5-2!./node_modules/purecss/build/pure-min.css",
-      "index": 5,
-      "index2": 3,
+      "index": 6,
+      "index2": 4,
       "size": 16808,
       "built": false,
       "optional": false,
@@ -2708,8 +2679,8 @@
       "id": 16,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\purecss\\build\\pure-min.css",
       "name": "./node_modules/purecss/build/pure-min.css",
-      "index": 4,
-      "index2": 4,
+      "index": 5,
+      "index2": 5,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -2755,9 +2726,9 @@
       "id": 17,
       "identifier": "css C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css 0",
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/lib??ref--5-2!./src/main.css",
-      "index": 3,
-      "index2": 1,
-      "size": 210,
+      "index": 4,
+      "index2": 2,
+      "size": 225,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -2802,8 +2773,8 @@
       "id": 18,
       "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css",
       "name": "./src/main.css",
-      "index": 2,
-      "index2": 2,
+      "index": 3,
+      "index2": 3,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -2847,17 +2818,17 @@
     },
     {
       "id": 19,
-      "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\lazy.js",
-      "name": "./src/lazy.js",
-      "index": 21,
-      "index2": 21,
-      "size": 33,
-      "cacheable": true,
+      "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\worker-loader\\dist\\cjs.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+      "name": "./node_modules/worker-loader/dist/cjs.js!./src/worker.js",
+      "index": 2,
+      "index2": 0,
+      "size": 113,
+      "cacheable": false,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        0
+        3
       ],
       "issuer": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
       "issuerId": null,
@@ -2880,24 +2851,33 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": null,
-          "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\component.js",
-          "module": "./src/component.js",
-          "moduleName": "./src/component.js",
-          "type": "import()",
-          "userRequest": "./lazy",
-          "loc": "12:15-31"
+          "moduleId": 5,
+          "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 52f28e5b741ecfe7e4c9da85a49dbd93",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "worker-loader!./worker",
+          "loc": "1:0-44"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\index.js 52f28e5b741ecfe7e4c9da85a49dbd93",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "worker-loader!./worker",
+          "loc": "5:21-27"
         }
       ],
-      "usedExports": true,
-      "providedExports": [
+      "usedExports": [
         "default"
       ],
+      "providedExports": null,
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/component.js (referenced with import())"
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "export default \"Hello from Lazy\";"
+      "source": "module.exports = function() {\n  return new Worker(__webpack_public_path__ + \"5f14f490b9aaa74888a9.worker.js\");\n};"
     }
   ],
   "filteredModules": 0,
@@ -2905,13 +2885,13 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {},
       "assets": [
         {
           "name": "index.html",
-          "size": 545197,
+          "size": 545212,
           "chunks": [
             1
           ],
@@ -2954,7 +2934,7 @@
           "files": [
             "index.html"
           ],
-          "hash": "9fb23b0ce82136bafb54",
+          "hash": "2e4bd868b42043a0dcea",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -3365,7 +3345,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {},
       "assets": [],
@@ -3407,7 +3387,7 @@
           "files": [
             "*"
           ],
-          "hash": "ab772a8e9148b99eb2b3",
+          "hash": "06dd3011b06f61fdec59",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -3612,7 +3592,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack4-demo/",
       "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
       "assetsByChunkName": {},
       "assets": [
@@ -3662,7 +3642,7 @@
           "files": [
             "*"
           ],
-          "hash": "fe624446d8cfc8511bf3",
+          "hash": "24f5cca357547ecd6c90",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -4055,6 +4035,190 @@
       "filteredModules": 0,
       "children": [],
       "name": "mini-css-extract-plugin ../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\css-loader\\index.js!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\postcss-loader\\lib\\index.js??ref--5-2!../../../../Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\main.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/webpack4-demo/",
+      "outputPath": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\dist",
+      "assetsByChunkName": {
+        "main": [
+          "5f14f490b9aaa74888a9.worker.js",
+          "5f14f490b9aaa74888a9.worker.js.map"
+        ]
+      },
+      "assets": [
+        {
+          "name": "5f14f490b9aaa74888a9.worker.js",
+          "size": 1089,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "main"
+          ],
+          "emitted": true
+        },
+        {
+          "name": "5f14f490b9aaa74888a9.worker.js.map",
+          "size": 4796,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "main"
+          ],
+          "emitted": true
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "main": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "5f14f490b9aaa74888a9.worker.js",
+            "5f14f490b9aaa74888a9.worker.js.map"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "main": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "5f14f490b9aaa74888a9.worker.js",
+            "5f14f490b9aaa74888a9.worker.js.map"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 114,
+          "names": [
+            "main"
+          ],
+          "files": [
+            "5f14f490b9aaa74888a9.worker.js",
+            "5f14f490b9aaa74888a9.worker.js.map"
+          ],
+          "hash": "9e5e9946d9207df92a29",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+              "name": "./node_modules/babel-loader/lib!./src/worker.js",
+              "index": 0,
+              "index2": 0,
+              "size": 114,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "self.onmessage = function (_ref) {\n    var text = _ref.data.text;\n\n    self.postMessage({ text: text + text });\n};"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "main",
+              "request": "!!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+          "name": "./node_modules/babel-loader/lib!./src/worker.js",
+          "index": 0,
+          "index2": 0,
+          "size": 114,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Sindile Xulu\\Documents\\GitHub\\webpack4-demo\\src\\worker.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "self.onmessage = function (_ref) {\n    var text = _ref.data.text;\n\n    self.postMessage({ text: text + text });\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "worker"
     }
   ]
 }
